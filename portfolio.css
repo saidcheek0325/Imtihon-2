@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 2894px;
+  background: #FAFAFA;
+  margin: 0 auto;
+  position: absolute;
+}
+.container__nav {
+  width: 1111px;
+  height: 32px;
+  top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px auto;
+}
+.container__nav__logo {
+  width: 60.08px;
+  height: 32px;
+}
+.container__nav__list {
+  font-family: "./fonts/PublicSans-Bold.ttf";
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  gap: 50px;
+}
+.container__nav__list__link {
+  height: 14px;
+  top: 9px;
+  color: #33323d;
+}
+.container__nav__list__link:active {
+  color: #5FB4A2;
+}
+.container__hero {
+  height: 2500px;
+  align-items: center;
+  margin-left: 150px;
+}
+.container__hero__design1 {
+  width: 1015px;
+  height: 500px;
+  top: 190px;
+  left: 165px;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+}
+.container__hero__design1__img {
+  width: 540px;
+  height: 500px;
+  top: 190px;
+  left: 165px;
+}
+.container__hero__design1__texts {
+  width: 350px;
+  height: 500px;
+  top: 190px;
+  left: 830px;
+}
+.container__hero__design1__texts__line {
+  width: 350px;
+  height: 1px;
+  top: 190px;
+  left: 830px;
+  opacity: 0.15px;
+  background: #33323D;
+  margin-bottom: 120px;
+}
+.container__hero__design1__texts__title {
+  width: 350px;
+  height: 42px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+  color: #33323D;
+  margin-bottom: 30px;
+}
+.container__hero__design1__texts__text {
+  width: 350px;
+  height: 150px;
+  top: 70px;
+  opacity: 0.8px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #33323D;
+  margin-bottom: 5px;
+}
+.container__hero__design1__texts__btn {
+  width: 175px;
+  height: 48px;
+  top: 244px;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  color: #33323D;
+  background-color: #FAFAFA;
+}
+.container__hero__design1__texts__line2 {
+  width: 350px;
+  height: 1px;
+  top: 190px;
+  left: 830px;
+  opacity: 0.15px;
+  background: #33323D;
+  margin-top: 100px;
+}
+.container__main {
+  width: 1110px;
+  height: 84px;
+  top: 1650px;
+  left: 165px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.container__main__title {
+  width: 350px;
+  height: 84px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+  color: #33323D;
+}
+.container__main__line {
+  width: 534px;
+  height: 1px;
+  top: 48px;
+  left: 382px;
+  opacity: 0.15px;
+  background: #33323D;
+  align-items: center;
+  margin-top: 20px;
+}
+.container__main__btn {
+  width: 162px;
+  height: 48px;
+  top: 18px;
+  left: 948px;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  color: #33323D;
+  background-color: #FAFAFA;
+}
+.container__footer {
+  width: 1440px;
+  height: 80px;
+  top: 1884px;
+  background: #33323D;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container__footer__left {
+  width: 370px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.container__footer__left__logo {
+  width: 61px;
+  height: 32px;
+  top: 1908px;
+  left: 165px;
+  color: #FFFFFF;
+}
+.container__footer__left__list {
+  width: 309px;
+  height: 14px;
+  top: 1917px;
+  left: 274px;
+  padding: 0 3px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container__footer__left__list__link {
+  width: 43px;
+  height: 14px;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.container__footer__right {
+  width: 104px;
+  height: 24px;
+  top: 1912px;
+  left: 1171px;
+  display: flex;
+  gap: 30px;
+}/*# sourceMappingURL=portfolio.css.map */

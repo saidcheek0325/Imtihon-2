@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 1440px;
+    height: 1964px;
+    background: #FAFAFA;
+    margin: 0 auto;
+    position: absolute;
+
+    &__nav {
+        width: 1111px;
+        height: 32px;
+        top: 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px auto;
+
+        &__logo {
+            width: 60.08px;
+            height: 32px;
+
+        }
+
+        &__list {
+            font-family: './fonts/PublicSans-Bold.ttf';
+            font-size: 12px;
+            font-weight: 400;
+            display: flex;
+            gap: 50px;
+
+            &__link {
+                height: 14px;
+                top: 9px;
+                color: #33323d;
+            }
+
+            &__link:active {
+                color: #5FB4A2;
+            }
+        }
+    }
+
+    &__hero {
+        width: 1110px;
+        height: 600px;
+        background-image: url('./images/Group\ 16.png');
+        align-items: center;
+        margin: 50px auto;
+
+        &__elements {
+            width: 445px;
+            height: 357px;
+            background-color: #FAFAFA;
+            position: relative;
+            top: 243px;
+
+            &__title {
+                width: 390px;
+                height: 200px;
+                position: relative;
+                top: 56px;
+                font-family: './fonts/IbarraRealNova-Bold.ttf';
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 50px;
+                text-align: left;
+                color: #33323D;
+            }
+
+            &__btn {
+                width: 200px;
+                height: 48px;
+                background: #203A4C;
+                position: relative;
+                top: 100px;
+                border: transparent;
+                color: #FFFFFF;
+                font-family: './fonts/PublicSans-Bold.ttf';
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14.1px;
+                letter-spacing: 2px;
+                text-align: center;
+
+
+                &__img {
+                    align-items: left;
+                    width: 48px;
+                    height: 48px;
+                    top: 2px;
+                    opacity: 0.1px;
+                }
+            }
+        }
+    }
+
+    &__main {
+        width: 1015px;
+        height: 600px;
+        top: 900px;
+        left: 165px;
+        margin: 150px auto;
+        display: flex;
+        justify-content: space-between;
+
+        &__img {
+            width: 540px;
+            height: 600px;
+            top: 900px;
+            left: 165px;
+            margin-left: -50px;
+        }
+
+        &__texts {
+            width: 350px;
+            height: 600px;
+            top: 900px;
+            left: 830px;
+
+            &__line {
+                width: 350px;
+                height: 1px;
+                top: 900px;
+                left: 830px;
+                opacity: 0.15px;
+                background: #33323D;
+                margin: 0 auto 60px;
+            }
+
+            &__line2 {
+                width: 350px;
+                height: 1px;
+                top: 900px;
+                left: 830px;
+                opacity: 0.15px;
+                background: #33323D;
+                margin: 80px auto;
+            }
+
+            &__title {
+                width: 350px;
+                height: 42px;
+                font-family: "Ibarra Real Nova";
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 42px;
+                letter-spacing: -0.3571428656578064px;
+                text-align: left;
+
+            }
+
+            &__text {
+                width: 350px;
+                height: 360px;
+                top: 70px;
+                opacity: 0.8px;
+                font-family: "Public Sans";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: left;
+                color: #33323D;
+
+            }
+
+            &__btn {
+                width: 202px;
+                height: 48px;
+                top: 454px;
+                font-family: "Public Sans";
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14.1px;
+                letter-spacing: 2px;
+                color: #33323D;
+                background-color: #FAFAFA;
+            }
+        }
+    }
+
+    &__section {
+        width: 1110px;
+        height: 84px;
+        top: 1650px;
+        left: 165px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+
+        &__title {
+            width: 350px;
+            height: 84px;
+            font-family: 'Ibarra Real Nova';
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.3571428656578064px;
+            text-align: left;
+            color: #33323D;
+
+        }
+
+        &__line {
+            width: 534px;
+            height: 1px;
+            top: 48px;
+            left: 382px;
+            opacity: 0.15px;
+            background: #33323D;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        &__btn {
+            width: 162px;
+            height: 48px;
+            top: 18px;
+            left: 948px;
+            font-family: 'Public Sans';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.1px;
+            letter-spacing: 2px;
+            color: #33323D;
+            background-color: #FAFAFA;
+        }
+    }
+
+    &__footer {
+        width: 1440px;
+        height: 80px;
+        top: 1884px;
+        background: #33323D;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__left {
+            width: 370px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+
+            &__logo {
+                width: 61px;
+                height: 32px;
+                top: 1908px;
+                left: 165px;
+                color: #FFFFFF;
+
+            }
+
+            &__list {
+                width: 309px;
+                height: 14px;
+                top: 1917px;
+                left: 274px;
+                padding: 0 3px 0 0;
+                display: flex;
+                justify-content: space-between;
+
+                &__link {
+                    width: 43px;
+                    height: 14px;
+                    font-family: 'Public Sans';
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 14.1px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+
+        &__right {
+            width: 104px;
+            height: 24px;
+            top: 1912px;
+            left: 1171px;
+            display: flex;
+            gap: 30px;
+        }
+    }
+}
